@@ -17,14 +17,12 @@ int main()
 
     double total = qnt * price;
 
-
     if(price>0){
 
-     double  dis =  total * 15/100;
-
+     double  dis =  total * 0.15;
 
      cout<<"After price dis: "<<dis <<endl;
-       cout<<"total: " <<total-dis;
+       cout<<"total: " <<total-dis<<endl;
 
     }
 
